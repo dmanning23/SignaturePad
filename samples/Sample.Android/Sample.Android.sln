@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Android", "Sample.Android.csproj", "{B07C8650-5086-4650-AC6F-ACCF1291A952}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignaturePad.Android", "..\..\src\SignaturePad.Android\SignaturePad.Android.csproj", "{F1A16CB9-A759-42C8-8F0B-3C9698A55336}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signature.Android", "Signature.Android\Signature.Android.csproj", "{335584BD-BA93-4DF8-AE41-0EDE3DC59BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignaturePad.Android", "..\..\src\SignaturePad.Android\SignaturePad.Android.csproj", "{DADCC779-73B6-451F-A0C2-F96A47CBA0F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +21,14 @@ Global
 		{B07C8650-5086-4650-AC6F-ACCF1291A952}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B07C8650-5086-4650-AC6F-ACCF1291A952}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B07C8650-5086-4650-AC6F-ACCF1291A952}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{F1A16CB9-A759-42C8-8F0B-3C9698A55336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1A16CB9-A759-42C8-8F0B-3C9698A55336}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1A16CB9-A759-42C8-8F0B-3C9698A55336}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1A16CB9-A759-42C8-8F0B-3C9698A55336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335584BD-BA93-4DF8-AE41-0EDE3DC59BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335584BD-BA93-4DF8-AE41-0EDE3DC59BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335584BD-BA93-4DF8-AE41-0EDE3DC59BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335584BD-BA93-4DF8-AE41-0EDE3DC59BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADCC779-73B6-451F-A0C2-F96A47CBA0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADCC779-73B6-451F-A0C2-F96A47CBA0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADCC779-73B6-451F-A0C2-F96A47CBA0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADCC779-73B6-451F-A0C2-F96A47CBA0F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
